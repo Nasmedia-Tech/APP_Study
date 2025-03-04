@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경색 설정 -->
+    <item android:drawable="@color/orange"/>
+
+    <!-- 가운데 앱 아이콘 표시 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+</layer-list>
